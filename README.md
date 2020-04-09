@@ -120,6 +120,12 @@ module.exports = {
 
 
 
+### css浏览器前缀处理
+
+`postcss-loader`  `autoprefixer` `browserslist` 
+
+
+
 ### 其他
 
-`resolve.extensions`：用来表明文件后缀列表，默认查找顺序是 `['.js', '.json']`，如果你的导入文件没有添加后缀就会按照这个顺序查找文件。我们应该尽可能减少后缀列表长度，然后将出现频率高的后缀排在前面。
+webpack配置文件中 `resolve.extensions`：用来表明文件后缀列表，默认查找顺序是 `['.js', '.json']`，如果你的导入文件没有添加后缀就会按照这个顺序查找文件。我们应该尽可能减少后缀列表长度，然后将出现频率高的后缀排在前面。
